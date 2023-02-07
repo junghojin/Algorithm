@@ -6,16 +6,20 @@ class leet01_twosum {
         
         int length = nums.length;
 
-        for(int i = 0; i < length; i++) {
-            for(int j = i+1; j < length; j++) {
+        for(int i = 0; i < length; i++) 
+        {
+            for(int j = i+1; j < length; j++) 
+            {
                 int sum = nums[i] + nums[j];
 
-                if(sum == target) {
+                if(sum == target) 
+                {
                     int[] output = new int[]{i, j};
                     return output;
                 }
             }
         }
+        
         return null;
     }
   
@@ -42,6 +46,7 @@ class leet01_twosum {
 
             pivot++;
         }
+        
         return null;
     }
 }
