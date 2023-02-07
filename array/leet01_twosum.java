@@ -2,8 +2,8 @@
 
 class leet01_twosum {
     // 1st approach: using two 'for' - better in terms of 'time'
-    public int[] twoSum(int[] nums, int target) {
-        
+    public int[] twoSum(int[] nums, int target) 
+    {
         int length = nums.length;
 
         for(int i = 0; i < length; i++) 
@@ -24,8 +24,8 @@ class leet01_twosum {
     }
   
     // 2nd approach: using one 'while' - better in terms of 'memory'
-    public int[] twoSum(int[] nums, int target) {
-
+    public int[] twoSum(int[] nums, int target) 
+    {
         // pivot: index just right after index 'i'
         int i = 0;
         int pivot = i + 1;
