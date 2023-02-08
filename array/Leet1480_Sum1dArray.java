@@ -1,4 +1,4 @@
-// 22.02.09 - Leet1408 - Running Sum of 1d Array
+// 23.02.09 - Leet1408 - Running Sum of 1d Array
 // [n1, n1+n2, n1+n2+n3, n1+...+ni]
 
 class Solution 
